@@ -26,7 +26,11 @@
         <activity
             android:name=".todolist.TodoListActivity"
             android:label="To-Do List"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".note.Note"
+            android:label="@string/title_activity_note"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

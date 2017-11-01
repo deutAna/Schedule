@@ -6,13 +6,14 @@ import android.database.sqlite.SQLiteOpenHelper;
 import com.example.ibra.schedule.todolist.data.ToDoListContract;
 
 /**
+ * edit version
  * Created by ibra on 10/26/2017.
  */
 
 public class DbHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "todolist.db";
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 4;
 
     public DbHelper(Context context){
         super(context , DATABASE_NAME , null , DATABASE_VERSION);
