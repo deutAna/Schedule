@@ -1,0 +1,12 @@
+Sun 23 Jun 21:45:57 EET 2019
+while read Line; do
+Sun 23 Jun 21:45:58 EET 2019
+... some commands ...
+Sun 23 Jun 21:45:58 EET 2019
+date
+Sun 23 Jun 21:45:58 EET 2019
+echo $Line
+Sun 23 Jun 21:45:58 EET 2019
+datee
+Sun 23 Jun 21:45:58 EET 2019
+done <command.sh 1>output.log 2>error.log
